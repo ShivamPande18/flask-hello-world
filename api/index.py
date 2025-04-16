@@ -1,6 +1,6 @@
 from flask import Flask, request, send_file
 from flask_cors import CORS
-from EvaTTS import EdgeTTSSpeaker
+from api.EvaTTS import EdgeTTSSpeaker
 import edge_tts
 
 
